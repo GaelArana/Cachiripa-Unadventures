@@ -13,7 +13,7 @@ export class Player {
     preload() {
         // Cargar spritesheets
         this.myScene.load.spritesheet('playerRun', '../assets/img/Player/Cachiripa/Cachiripa-Run.png', { frameWidth: 69, frameHeight: 74 });
-        this.myScene.load.spritesheet('playerAttack', '../assets/img/Player/Ataques/CachiLoli.png', { frameWidth: 82, frameHeight: 74 });
+        this.myScene.load.spritesheet('playerAttack', '../assets/img/Player/Ataques/cachiLoli.png', { frameWidth: 82, frameHeight: 74 });
     }
 
     create() {
